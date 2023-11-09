@@ -19,30 +19,32 @@ const App = () => {
             {steps === 1 && (
                 <div className=" flex h-screen w-screen justify-center">
                     <img src="/images/img_02.png" className="h-full w-screen" />
-                    <button
-                        className="btn-ghost absolute left-[52%] top-[37%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
-                        onClick={() => setSteps(3)}
-                    >
-                        5 Filmes
-                    </button>
-                    <button
-                        className="btn-ghost absolute left-[52%] top-[52%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
-                        onClick={() => setSteps(3)}
-                    >
-                        12 Filmes
-                    </button>
-                    <button
-                        className="btn-ghost absolute left-[52%] top-[65%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
-                        onClick={() => setSteps(3)}
-                    >
-                        Nenhum
-                    </button>
-                    <button
-                        className="btn-ghost absolute left-[52%] top-[77%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
-                        onClick={() => setSteps(4)}
-                    >
-                        +30 Filmes
-                    </button>
+                    <div className="absolute right-[30%] top-[40%] flex flex-col gap-1 text-xl underline">
+                        <button
+                            className="btn-ghost h-fit w-fit bg-base-200 bg-transparent hover:bg-transparent"
+                            onClick={() => setSteps(3)}
+                        >
+                            5 Filmes
+                        </button>
+                        <button
+                            className="btn-ghost h-fit w-fit bg-base-200 bg-transparent hover:bg-transparent"
+                            onClick={() => setSteps(3)}
+                        >
+                            12 Filmes
+                        </button>
+                        <button
+                            className="btn-ghost h-fit w-fit bg-base-200 bg-transparent hover:bg-transparent"
+                            onClick={() => setSteps(3)}
+                        >
+                            Nenhum
+                        </button>
+                        <button
+                            className="btn-ghost h-fit w-fit bg-base-200 bg-transparent hover:bg-transparent"
+                            onClick={() => setSteps(4)}
+                        >
+                            +30 Filmes
+                        </button>
+                    </div>
                 </div>
             )}
             {steps === 3 && (
