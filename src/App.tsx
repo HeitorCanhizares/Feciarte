@@ -19,7 +19,7 @@ const App = () => {
             {steps === 1 && (
                 <div className=" flex h-screen w-screen justify-center">
                     <img src="/images/img_02.png" className="h-full w-screen" />
-                    <div className="absolute right-[30%] top-[40%] flex flex-col gap-1 text-xl underline">
+                    <div className="absolute right-[30%] top-[35%] flex flex-col gap-1 text-xl underline md:gap-4 md:text-3xl">
                         <button
                             className="btn-ghost h-fit w-fit bg-base-200 bg-transparent hover:bg-transparent"
                             onClick={() => setSteps(3)}
