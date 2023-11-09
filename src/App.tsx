@@ -5,13 +5,13 @@ const App = () => {
     return (
         <>
             {steps === 0 && (
-                <div className=" flex h-screen w-screen justify-center">
+                <div className="h-screen w-screen">
                     <img src="/images/img_01.png" className="h-full w-screen" />
                     <button
-                        className="btn absolute left-[50%] top-[80%] h-[10vh] w-[20%] rounded-3xl bg-base-200 text-3xl shadow-2xl "
+                        className="btn absolute right-[35%] top-[92%] h-12 rounded-3xl p-2 underline"
                         onClick={() => setSteps(1)}
                     >
-                        <img src="/images/play.svg" alt="" className="w-12" />
+                        <img src="/images/play.svg" alt="" className="h-full" />
                         Play
                     </button>
                 </div>
@@ -20,25 +20,25 @@ const App = () => {
                 <div className=" flex h-screen w-screen justify-center">
                     <img src="/images/img_02.png" className="h-full w-screen" />
                     <button
-                        className="btn-ghost absolute left-[55%] top-[35%] h-fit w-fit bg-base-200 bg-transparent text-3xl hover:bg-transparent"
+                        className="btn-ghost absolute left-[52%] top-[37%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
                         onClick={() => setSteps(3)}
                     >
                         5 Filmes
                     </button>
                     <button
-                        className="btn-ghost absolute left-[55%] top-[47%] h-fit w-fit bg-base-200 bg-transparent text-3xl hover:bg-transparent"
+                        className="btn-ghost absolute left-[52%] top-[52%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
                         onClick={() => setSteps(3)}
                     >
                         12 Filmes
                     </button>
                     <button
-                        className="btn-ghost absolute left-[55%] top-[57%] h-fit w-fit bg-base-200 bg-transparent text-3xl hover:bg-transparent"
+                        className="btn-ghost absolute left-[52%] top-[65%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
                         onClick={() => setSteps(3)}
                     >
                         Nenhum
                     </button>
                     <button
-                        className="btn-ghost absolute left-[55%] top-[65%] h-fit w-fit bg-base-200 bg-transparent text-3xl hover:bg-transparent"
+                        className="btn-ghost absolute left-[52%] top-[77%] h-fit w-fit bg-base-200 bg-transparent text-2xl hover:bg-transparent"
                         onClick={() => setSteps(4)}
                     >
                         +30 Filmes
@@ -49,7 +49,7 @@ const App = () => {
                 <div className=" flex h-screen w-screen justify-center">
                     <img src="/images/img_03.png" className="h-full w-screen" />
                     <button
-                        className="btn-ghost absolute left-0 top-0 h-fit w-fit bg-base-200 bg-transparent text-3xl underline hover:bg-transparent"
+                        className="btn-ghost absolute left-0 top-0 h-fit w-fit bg-base-200 bg-transparent text-2xl underline hover:bg-transparent"
                         onClick={() => setSteps(0)}
                     >
                         Voltar ao início
@@ -60,7 +60,7 @@ const App = () => {
                 <div className=" flex h-screen w-screen justify-center">
                     <img src="/images/img_04.png" className="h-full w-screen" />
                     <button
-                        className="btn-ghost absolute left-0 top-0 h-fit w-fit bg-base-200 bg-transparent text-3xl underline hover:bg-transparent"
+                        className="btn-ghost absolute left-0 top-0 h-fit w-fit bg-base-200 bg-transparent text-2xl underline hover:bg-transparent"
                         onClick={() => setSteps(0)}
                     >
                         Voltar ao início
